@@ -5,7 +5,17 @@
     <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <RootNamespace>_2026_02_09_Nerdbank.GitVersioning</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
+    <!-- <PackAsTool>true</PackAsTool> -->
+    <!-- <GeneratePackageOnBuild>true</GeneratePackageOnBuild> -->
     <Nullable>enable</Nullable>
+    <!-- <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies> -->
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.9.50">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>
